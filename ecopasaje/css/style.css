@@ -1,0 +1,10 @@
+.navbar{ margin-bottom:0px !important;}
+.navbar::before{ margin-bottom:0px !important;}
+.navbar::after{ margin-bottom:0px !important;}
+.box{border: 2px solid #000; margin-left: 10%; margin-top:2%;}
+.box img{width:250px;height: 250px; }
+
+@media only screen and (max-width: 480px) {
+	.box{border: 2px solid #000; margin-left: 10%; margin-top:2%;}
+	.box img{max-width:100px;max-height: 100px; }
+}
